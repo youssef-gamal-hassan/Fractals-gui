@@ -18,7 +18,6 @@ public class Menu implements ActionListener {
         frame.setPreferredSize(new Dimension(400,700));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);
-        frame.setLocationRelativeTo(null);
 
         Label l = new Label();
         l.setText("Pick a Fractal Type");
